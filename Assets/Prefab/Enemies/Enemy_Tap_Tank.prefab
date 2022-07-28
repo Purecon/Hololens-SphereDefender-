@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2717760394989082512
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 365444475444617829, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c4a1b7475a654dd0acaa0cfdfba2e20c, type: 2}
+    - target: {fileID: 379676895343798669, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Tap_Tank
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.131
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 382263659048230905, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345308288426483117, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: speed
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4727163371443938666, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: OnTouchStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: -7803526040715824507}
+    - target: {fileID: 4727163371443938666, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: OnTouchStarted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: EnemyBehaviourTank, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540990790333990468, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.043137267
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540990790333990468, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.1504765
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540990790333990468, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.7411765
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4712163069823896727, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+--- !u!1 &2374398323232669213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 379676895343798669, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+  m_PrefabInstance: {fileID: 2717760394989082512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2352353993892722165 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 365444475444617829, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+  m_PrefabInstance: {fileID: 2717760394989082512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7589376168502137300 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5540990790333990468, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+  m_PrefabInstance: {fileID: 2717760394989082512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7589376168502137302 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5540990790333990470, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+  m_PrefabInstance: {fileID: 2717760394989082512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2757326107974881764 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 285013009509893748, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+  m_PrefabInstance: {fileID: 2717760394989082512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &4517015417416440291 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1952527287201222259, guid: 013f81666bbd7a748bc2a4d84859300a, type: 3}
+  m_PrefabInstance: {fileID: 2717760394989082512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-7803526040715824507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2374398323232669213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488e7dea783edec44acfb50c2ce438c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 50
+  deathPrefab: {fileID: 7589376168502137300}
+  audioClicked: {fileID: 2757326107974881764}
+  audioCollide: {fileID: 4517015417416440291}
+  scoreSO: {fileID: 11400000, guid: b4bc3fcaec6197b478bc4c157881438b, type: 2}
+  colors:
+  - {fileID: 2100000, guid: c4a1b7475a654dd0acaa0cfdfba2e20c, type: 2}
+  - {fileID: 2100000, guid: d808c628536649eaa61f2a2f2d16c6cc, type: 2}
+  - {fileID: 2100000, guid: b0fcdc3322e34d9ea83e8399bd9f4031, type: 2}
+  lives: 0
+  rendererForColor: {fileID: 2352353993892722165}
+  deathSplatPrefab: {fileID: 7589376168502137302}

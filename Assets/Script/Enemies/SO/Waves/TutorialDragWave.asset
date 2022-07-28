@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1b4d4de045f8340bb91ae0c840e293, type: 3}
+  m_Name: TutorialDragWave
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 5826104177143173339, guid: f7f99d2f285bb2144bef2a29b15151ec, type: 3}
+  enemyAmount: 1
+  isTutorial: 1

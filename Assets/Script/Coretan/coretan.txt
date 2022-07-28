@@ -1,0 +1,59 @@
+//Spawn alternating, ga jadi
+        /*
+        int amountTotal = 0;
+        int indexDict = 0;
+        Dictionary<int,int> enemyDict = new Dictionary<int,int>();
+        var enemiesWaves = enemies[index].waves;
+        foreach (EnemyWaveSO enemy in enemiesWaves)
+        {
+            amountTotal+=enemy.enemyAmount;
+            enemyDict.Add(indexDict, enemy.enemyAmount);
+            indexDict++;
+        }
+
+        indexDict = 0;
+        for (int i = 0; i < amountTotal; i++)
+        {
+            EnemyWaveSO enemiesSelect = enemiesWaves[indexDict];
+            //int enemiesSelectAmount = enemyDict[indexDict];
+            GameObject enemyPrefab = enemiesSelect.enemyPrefab;
+            SpawnUnit(enemyPrefab,0);
+            enemyDict[indexDict]--;
+            if(enemyDict[indexDict] == 0)
+            {
+                Debug.Log("Remove" + indexDict + " at " + i);
+                enemyDict.Remove(indexDict);
+            }
+
+            List<int>enemyDictKeys = new List<int>(enemyDict.Keys);
+            indexDict++;
+            if (!enemyDictKeys.Contains(indexDict))
+            {
+                //Last case
+                if(enemyDictKeys.Count > 0)
+                {
+                    indexDict = enemyDictKeys[0];
+                }
+            }
+        }
+        */
+		
+		
+		IEnumerator SpawnUnit(GameObject enemyPrefab, int secondsWait)
+    {
+        GameObject spawned = Instantiate(enemyPrefab, transform);
+
+        float x = Random.Range(-1f, 1f);
+        float y = Random.Range(-1f, 1f);
+        float z = Random.Range(-1f, 1f);
+
+        Vector3 spawnVector = new Vector3(x, y, z).normalized * r;
+        //Vector3 spawnVector = Random.onUnitSphere;
+        spawnVector += transform.position;
+        Debug.Log(spawnVector.ToString());
+        //spawned.transform.SetParent(transform, false);
+        spawned.transform.position = spawnVector;
+        spawnedEnemies.Add(spawned);
+
+        yield return new WaitForSeconds(secondsWait);
+    }
